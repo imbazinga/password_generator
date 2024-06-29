@@ -13,6 +13,6 @@ python generate.py
 In the *save_passwords* function, replace the following path with the actual path where you want to store the passwords:
 ```bash
 def save_passwords(self):
-      with open(r"path/to/your/directory", "w") as file:
+      with open(r"path/to/your/directory/pass.txt", "w") as file:
          file.write("\n".join(self.history))
 ```
