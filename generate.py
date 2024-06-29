@@ -19,7 +19,7 @@ class generatepassword:
     
     def load_passwords(self):
         try:
-            with open("password_history.txt", "r") as file:
+            with open("your created file", "r") as file:
                 self.history = file.read().splitlines()
         except FileNotFoundError:
             pass
