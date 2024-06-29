@@ -16,3 +16,10 @@ def save_passwords(self):
       with open(r"path/to/your/directory/pass.txt", "w") as file:
          file.write("\n".join(self.history))
 ```
+In *Load_passwords* function, replace "your created file" with your actual filename to see the last generated passwords in the output:
+```bash
+def load_passwords(self):
+        try:
+            with open("your created file", "r") as file:
+                self.history = file.read().splitlines()
+```
