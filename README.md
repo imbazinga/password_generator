@@ -1,5 +1,5 @@
 # password_generator
-This password generator tool generates strong and random passwords for online protection and also allows you to create custom passwords based on your preferences for the number of letters, symbols, and numbers included.
+This password generator tool generates strong and random passwords for online protection which gives you custom passwords based on the preferences for the number of letters, symbols, and numbers included.
 # Installation:
 * clone this repository:
 ```bash
